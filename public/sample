@@ -1,0 +1,28 @@
+import './App.css';
+import Sum from './component/Sum';
+
+
+
+function App() {
+  return (
+    <div className="App">
+
+      <header className="Header">
+        <div style={{ backgroundColor: "" }}>
+          Welcome
+        </div>
+        <img src={logo} className="App-logo" alt="logo" />
+
+        <h1 style={{ color: "greenyellow" }}>Hello world</h1>
+        <h1 style={{ color: "red" }}>Hello React</h1>
+
+  
+        <Sum/>
+       
+
+      </header>
+    </div>
+  );
+}
+
+export default App;
