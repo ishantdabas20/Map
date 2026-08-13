@@ -7,7 +7,7 @@
   pointer-events: none;
 }
 .App {
-  background-color: rgba(12, 153, 200, 0.705);
+  background-color: rgba(10, 11, 11, 0.212);
   height: 100vh;
 }
 
@@ -37,6 +37,6 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(0deg);
   }
 }
