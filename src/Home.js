@@ -30,7 +30,7 @@ function Home() {
     setLoading(true);
 
     try {
-      
+
       const token = await loginApi(username, password);
 
       console.log("JWT received");
@@ -61,7 +61,8 @@ function Home() {
   };
 
   return (
-    <div>
+    <div class = "box">
+      <div>
       <header className="Header">
         <div>
           This is login page
@@ -120,6 +121,7 @@ function Home() {
       <button onClick={() => navigate("/map")}>
         Map
       </button>
+    </div>
     </div>
   );
 }
