@@ -8,24 +8,6 @@ import About from './About';
 import User from './User';
 
 function App() {
-  /*const map = L.map("map").setView(
-    [28.6139, 77.2090], 10
-  );
-  
-  L.tileLayer(
-    "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-    {
-        attribution: "© OpenStreetMap contributors"
-    }
-).addTo(map);
-const marker = L.marker([28.6139, 77.2090]).addTo(map);
-
-marker.bindPopup(`
-    <h3>New Delhi</h3>
-    <p>India Capital City</p>
-`)
-.openPopup();*/
-
   return (
     <div className="App">
 

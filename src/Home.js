@@ -14,8 +14,8 @@ function Home() {
         </div>
         <img src={logo2} className="App-logo" alt="logo" />
        </header>
-        <h1 style={{ color: "greenyellow" }}>Hello world</h1>
-        <h1 style={{ color: "red" }}>Hello React</h1>
+        <h1 style={{ color: "greenpink" }}>Hello world</h1>
+        <h1 style={{ color: "redblue" }}>Hello React</h1>
 
     
     <button onClick={() => navigate("/about")}>
